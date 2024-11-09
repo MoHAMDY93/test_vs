@@ -1,0 +1,2 @@
+test_pkg
+-DCATKIN_DEVEL_PREFIX=/home/mohamdy_93/SRT/Sessions/Session_1/Test/trial/devel -DCMAKE_INSTALL_PREFIX=/home/mohamdy_93/SRT/Sessions/Session_1/Test/trial/install -G Unix Makefiles

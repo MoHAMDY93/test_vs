@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="yaw" pkg="test_pkg" type="yaw_test.py" output="screen"/>
+    <node name="steering" pkg="test_pkg" type="steer.py"/>
+    <node name="move" pkg="test_pkg" type="move.py"/>
+    <node name="brakes" pkg="test_pkg" type="brakes.py"/>
+    
+    <rosparam command="load" file="$(find test_pkg)/config/data.yaml"/>
+</launch>
